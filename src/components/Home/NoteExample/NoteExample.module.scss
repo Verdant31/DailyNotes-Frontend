@@ -1,0 +1,222 @@
+.noteContainer {
+    width: 38rem;
+    height: 32rem;
+    background-color: #379683;
+    border-radius: 25px;
+    justify-content: center;
+    margin: auto;    
+
+    .note {
+        h2{
+            text-align: center;
+            padding-top: 1rem;
+            color: #EDF5E1;
+        }
+        .notebookIcon{
+            span {
+                font-size: 1.4rem;
+                margin-right: 1rem;
+                color: #EDF5E1;
+                font-weight: bold;
+            }
+            align-items: center;
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .form { 
+        margin-top: 1rem;
+        margin-left: 3rem;
+        
+        .titleContainer {
+            h1 {
+                font-size: 1.5rem;
+                color: #EDF5E1;
+            }
+            input {
+                margin-top:0.5rem;
+                height: 2.5rem;
+                width: 90%;
+                border: 2px solid #379683;
+                border-radius: 8px;    
+            }
+            
+        }
+        .dateContainer {
+            margin-top: 1rem;
+            h1 {
+                font-size: 1.5rem;
+                color: #EDF5E1;
+            }
+            input {
+                margin-top:0.5rem;
+                height: 2.5rem;
+                width: 90%;
+                border: 2px solid #379683;
+                border-radius: 8px;
+                
+            }
+            
+        }
+        .obsContainer {
+            margin-top: 1rem;
+
+            h1 {
+                font-size: 1.5rem;
+                color: #EDF5E1;
+            }
+            input {
+                margin-top:0.5rem;
+                height: 2.5rem;
+                width: 90%;
+                border: 2px solid #379683;
+                border-radius: 8px;
+                
+            }
+            
+        }
+    }
+    
+}
+
+@media (max-width: 740px) {
+    .noteContainer {
+        height: 28rem;
+        width: 30rem;
+        .note {
+            h2{
+                font-size: 1.1rem;
+            }
+            .notebookIcon{
+                span {
+                    font-size: 1.1rem;
+                }
+                svg {
+                    height: 3rem;
+                    width: 3rem;
+                }
+            }
+        }  
+        
+        .form {
+            .titleContainer {
+                h1 {
+                    font-size: 1.2rem;
+                    color: #EDF5E1;
+                }
+            }
+            .dateContainer {
+                margin-top: 1rem;
+                h1 {
+                    font-size: 1.2rem;
+                    color: #EDF5E1;
+                }       
+            }
+            .obsContainer {
+                h1 {
+                    font-size: 1.2rem;
+                }            
+            }
+        }
+    }
+}
+
+@media (max-width: 542px) {
+    .noteContainer {
+        width: 20rem;
+        .note {
+            h2{
+                margin: auto;
+                width: 60%;
+                font-size: 1rem;
+            }
+            .notebookIcon{
+                span {
+                    font-size: 1rem;
+                }
+                svg {
+                    height: 2.5rem;
+                    width: 2.5rem;
+                }
+            }
+        } 
+        .form {
+            .titleContainer {
+                h1 {
+                    font-size: 1rem;
+                }
+                input {
+                    width: 75%;
+                }
+            }
+            .dateContainer {
+                h1 {
+                    font-size: 1rem;
+                }
+                input {
+                    width: 75%;
+                }
+            }
+            .obsContainer {
+                h1 {
+                    font-size: 1rem;
+                }
+                input {
+                    width: 75%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .noteContainer {
+        width: 17rem;
+        
+        .note {
+            h2{
+                margin: auto;
+                width: 60%;
+                font-size: 1rem;
+            }
+            .notebookIcon{
+                span {
+                    font-size: 1rem;
+                }
+                svg {
+                    height: 2.5rem;
+                    width: 2.5rem;
+                }
+            }
+        } 
+        .form {
+            margin-left: 2rem;
+            .titleContainer {
+                h1 {
+                    font-size: 1rem;
+                }
+                input {
+                    width: 85%;
+                }
+            }
+            .dateContainer {
+                h1 {
+                    font-size: 1rem;
+                }
+                input {
+                    width: 85%;
+                }
+            }
+            .obsContainer {
+                h1 {
+                    font-size: 1rem;
+                }
+                input {
+                    width: 85%;
+                }
+            }
+        }
+    }
+}

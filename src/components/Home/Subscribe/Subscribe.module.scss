@@ -1,0 +1,20 @@
+.subscribeContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+
+    h1{
+        width: 60%;
+        text-align: center;
+        color: #05386B;
+    }
+}
+
+@media (max-width: 360px) {
+    .subscribeContainer {
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+}
